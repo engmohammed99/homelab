@@ -12,4 +12,4 @@ console.log(multiply(8, 3));
 
 require('./test-module3.js')();
 require('./test-module3.js')();
-require('./tnst-module3.js')();
+require('./test-module3.js')();
