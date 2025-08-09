@@ -1,0 +1,77 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+}
+.hero{
+    /* width: 720px;
+    height: 350px; */
+    padding: 10px 0px 40px 0px;
+    background-image: url("/images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+   
+}
+#title{
+    margin-top: 80px;
+    margin-bottom: 0;
+    background-color:#1D3557;
+    padding: 3px 12px;
+    border-radius:10px ;
+    font-size: 20px;
+}
+#catch-phrase{
+    margin:5px 130px 0px 130px;
+    background-color: #457B9D;
+    font-size: 10px;
+    padding: 5px 30px;
+    border-radius:10px ;
+}
+#activ{
+    color: #1D3557;
+    background-color: #F1FAEE;
+    margin: 0px;
+    padding: 20px;
+}
+h3{
+    margin: 0 auto 30px;
+}
+#img-activ{
+    display: flex;
+    justify-content: space-around;
+  
+}
+#guide{
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+   background-color: #A8DADC;
+   margin: 50px 60px;
+   border-radius: 10px;
+   border-bottom: 15px solid #1D3557;
+    color: #1D3557;
+    
+}
+#personal-img{
+    border-radius: 10px;
+    width: 180px;
+    margin-right: 5px;
+}
